@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>Calculadora de Imposto</title>
+	  <meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  
+  
+  <body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Calculadora de Impostos</h1>
+			<p>Gostaria de saber qual o seu salário líquido? Calcule abaixo:</p>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title"><img src="calculadora_icon.png" height="42" width="42"></h2>
+			</div>
+			<div class="panel-body">
+				<form action="calculadora.php" method="post">
+					<h3 align="center">Informe seu salário bruto: <input type="number" name="salario" step="0.01"/>	
+					<input type="submit" value="Calcular" />
+				</form>
+			</div>
+		</div>
+	</div>
+		
+		
+  </body>
+</html>
